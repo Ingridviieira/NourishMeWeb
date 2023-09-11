@@ -8,7 +8,6 @@ import { redirect } from "next/navigation";
 import { useState } from "react";
 
 
-
 export default function FormMotivo(){
     const [error, setError] = useState("")
 
@@ -49,7 +48,7 @@ export default function FormMotivo(){
                     />
 
                     <div className="flex justify-around">
-                        <Button href="/contas" variant="secondary">
+                        <Button href="/motivo" variant="secondary">
                             cancelar
                         </Button>
                         <Button type="button">

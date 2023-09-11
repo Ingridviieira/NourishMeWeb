@@ -33,7 +33,11 @@ export default function Home() {
         <main>
           <h2 style={textoStyle}>Empresa NourishMe</h2>
           <p style={paragraphStyle}>
-            A Empresa NourishMe está desenvolvendo um aplicativo de monitoramento alimentar chamado Nourish Me. Este aplicativo visa simplificar o tratamento de transtornos alimentares, que podem impactar adversamente a saúde mental e física, incluindo condições como depressão, ansiedade, baixa autoestima, distúrbios hormonais e problemas gastrointestinais. O aplicativo permitirá que os usuários acompanhem seus hábitos alimentares, atividade física e estados emocionais, oferecendo feedback personalizado e dicas para ajudar na gestão dos sintomas e na promoção de um relacionamento saudável com a comida. Além disso, a plataforma permitirá o compartilhamento de informações com terapeutas, permitindo que eles monitorem o progresso dos pacientes e ajustem o tratamento conforme necessário. O aplicativo também oferecerá recursos adicionais, como suporte emocional por meio de inteligência artificial, meditações guiadas e exercícios de mindfulness, com o objetivo de ajudar os usuários a gerenciar o estresse, lidar com gatilhos emocionais e cultivar hábitos alimentares saudáveis.
+          O Nourish Me será um aplicativo de monitoramento alimentar,
+que irá facilitar o processo de tratamento de transtornos
+alimentares. Esses transtornos podem ter efeitos negativos sobre a
+saúde mental e física, incluindo depressão, ansiedade, baixa
+autoestima, distúrbios hormonais e problemas gastrointestinais.
           </p>
         </main>
       </div>

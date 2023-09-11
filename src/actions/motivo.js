@@ -5,6 +5,8 @@ import { revalidatePath } from "next/cache";
 export async function create(formData) {
     const url = "http://localhost:8080/api/v1/motivo";
 
+    console.log (formData);
+    
     const options = {
         method: "POST",
         body: JSON.stringify(Object.fromEntries(formData)),
