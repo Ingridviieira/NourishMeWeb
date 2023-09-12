@@ -27,32 +27,42 @@ export default function FormMotivo(){
         <>
             <NavBar active="motivos" />
 
-            <main className="bg-slate-900 mt-20 m-auto p-12 rounded max-w-lg">
+            <main className="bg-slate-400 mt-20 m-auto p-12 rounded max-w-lg">
                 <h2 className="text-2xl text-slate-100">Cadastrar Motivo</h2>
 
-                <form action={handleSubmit} className="flex flex-col gap-4">
+                <form action={handleSubmit} className="flex flex-col gap-5 ">
                     <InputText
-                        label="nome" //nome da refeição
-                        id="nome"
-                        name="nome"
+                        label="Nome da refeicao:" //nome da refeição
+                        id="nomeRefeicao"
+                        name="nomeRefeicao"
+                        style={{ backgroundColor: "lightsteelblue" }}
+                    />
+
+                    <InputText
+                        label="O que Comeu:"
+                        id="oQueComeu"
+                        name="oQueComeu"
+                        style={{ backgroundColor: "lightsteelblue" }}
                     />
                     <InputText
-                        label="horario"
-                        id="horarioo"
-                        name="horario"
-                    />
-                    <InputText
-                        label="descricao"
+                        label="Descricao:"
                         id="descricao"
                         name="descricao"
+                        style={{ backgroundColor: "lightsteelblue" }}
+                    />
+                    <InputText
+                        label="Horario:"
+                        id="horario"
+                        name="horario"
+                        style={{ backgroundColor: "lightsteelblue" }}
                     />
 
                     <div className="flex justify-around">
                         <Button href="/motivo" variant="secondary">
-                            cancelar
+                            Cancelar
                         </Button>
                         <Button type="button">
-                            salvar
+                            Salvar
                         </Button>
                     </div>
 

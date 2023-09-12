@@ -33,11 +33,11 @@ export default function Home() {
         <main>
           <h2 style={textoStyle}>Empresa NourishMe</h2>
           <p style={paragraphStyle}>
-          O Nourish Me será um aplicativo de monitoramento alimentar,
-que irá facilitar o processo de tratamento de transtornos
-alimentares. Esses transtornos podem ter efeitos negativos sobre a
-saúde mental e física, incluindo depressão, ansiedade, baixa
-autoestima, distúrbios hormonais e problemas gastrointestinais.
+            O Nourish Me será um aplicativo de monitoramento alimentar,
+            que irá facilitar o processo de tratamento de transtornos
+            alimentares. Esses transtornos podem ter efeitos negativos sobre a
+            saúde mental e física, incluindo depressão, ansiedade, baixa
+            autoestima, distúrbios hormonais e problemas gastrointestinais.
           </p>
         </main>
       </div>

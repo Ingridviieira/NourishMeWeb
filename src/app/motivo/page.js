@@ -14,12 +14,12 @@ async function getMotivo() {
         <>
             <NavBar active={"motivo"} />
     
-            <main className="bg-gray-900 mt-10 p-9 rounded max-w-xl m-auto">
+            <main className="bg-gray-700 mt-10 p-9 rounded max-w-xl m-auto">
             <div className="flex justify-between items-center">
                 <h2 className="text-slate-100 text-2xl">Motivos</h2>
 
                 <Button href="/motivo/new">
-                criar motivo
+                Criar Motivo
                 </Button>
             </div>
     

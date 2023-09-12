@@ -1,0 +1,13 @@
+
+.info-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    font-family: Cambria;
+}
+
+.info-text {
+    font-size: 16px;
+    color: #050505;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
