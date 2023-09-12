@@ -8,6 +8,7 @@ async function getMotivo() {
     return resp.json()
     }
     
+    
     export default async function Motivo() {
         const motivo = await getMotivo()
         return (
@@ -28,7 +29,5 @@ async function getMotivo() {
             </div>
             </main>
         </>
-    
-    
         )
     }

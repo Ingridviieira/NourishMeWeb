@@ -19,6 +19,7 @@ export async function create(formData) {
     if (resp.status !== 201) {
         const json = await resp.json();
         let errorsMessage = '';
+        console.log(json)
         if (Array.isArray(json)) {
             errorsMessage = json.map((error) => error.message).join('. ');
         } else if (json.message) {

@@ -32,13 +32,13 @@ export default function FormMotivo(){
 
                 <form action={handleSubmit} className="flex flex-col gap-5 ">
                     <InputText
-                        label="Nome da refeicao:" //nome da refeição
-                        id="nomeRefeicao"
-                        name="nomeRefeicao"
+                        label="Descrição do que você sentiu depois de comer"//nome da refeição
+                        id="descricaoMotivo"
+                        name="descricaoMotivo"
                         style={{ backgroundColor: "lightsteelblue" }}
                     />
 
-                    <InputText
+                    {/* <InputText
                         label="O que Comeu:"
                         id="oQueComeu"
                         name="oQueComeu"
@@ -55,7 +55,7 @@ export default function FormMotivo(){
                         id="horario"
                         name="horario"
                         style={{ backgroundColor: "lightsteelblue" }}
-                    />
+                    /> */}
 
                     <div className="flex justify-around">
                         <Button href="/motivo" variant="secondary">
