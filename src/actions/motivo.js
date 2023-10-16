@@ -3,7 +3,7 @@
 import { revalidatePath } from "next/cache";
 
 export async function create(formData) {
-    const url = "http://localhost:8080/api/v1/motivo";
+    const url = "http://localhost:8080/api/v1/motivos";
 
     console.log (formData);
     
@@ -28,6 +28,6 @@ export async function create(formData) {
         return { message: `Erro ao cadastrar o motivo. ${errorsMessage}` };
     }
 
-    revalidatePath("/motivos");
+    revalidatePath("/motivo");
     return { success: "ok" };
 }
