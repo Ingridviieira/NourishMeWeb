@@ -31,31 +31,13 @@ export default function FormMotivo(){
                 <h2 className="text-2xl text-slate-100">Cadastrar Motivo</h2>
 
                 <form action={handleSubmit} className="flex flex-col gap-5 ">
+
                     <InputText
                         label="Descrição do que você sentiu depois de comer"//nome da refeição
                         id="descricaoMotivo"
                         name="descricaoMotivo"
                         style={{ backgroundColor: "lightsteelblue" }}
                     />
-
-                    {/* <InputText
-                        label="O que Comeu:"
-                        id="oQueComeu"
-                        name="oQueComeu"
-                        style={{ backgroundColor: "lightsteelblue" }}
-                    />
-                    <InputText
-                        label="Descricao:"
-                        id="descricao"
-                        name="descricao"
-                        style={{ backgroundColor: "lightsteelblue" }}
-                    />
-                    <InputText
-                        label="Horario:"
-                        id="horario"
-                        name="horario"
-                        style={{ backgroundColor: "lightsteelblue" }}
-                    /> */}
 
                     <div className="flex justify-around">
                         <Button href="/motivo" variant="secondary">
