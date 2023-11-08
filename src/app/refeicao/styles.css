@@ -1,13 +1,18 @@
 
 .info-title {
-    font-size: 24px;
-    color: #333;
-    font-weight: bold;
-    font-family: Cambria;
+    font-size: 30px;
+    color: rgba(50, 19, 71, 0.489);
+    font-family: Didot, serif;
+    text-align: center;
 }
 
 .info-text {
     font-size: 16px;
     color: #050505;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.large-text {
+    font-size: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
