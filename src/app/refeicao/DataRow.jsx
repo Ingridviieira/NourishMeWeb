@@ -1,7 +1,7 @@
 import './styles.css';
 
 export default function DataRow({ refeicao }) {
-    console.log('ID da Refeicao:', refeicao.id);
+    console.log('Dados da refeição:', refeicao);
 
     return (
         <div id="data-row">
