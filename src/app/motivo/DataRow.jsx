@@ -10,7 +10,7 @@ export default function DataRow({motivo}) {
 
             <div className="flex items-center">
                 <div className="invisible group-hover:visible">
-                    <DropMenu />
+                    <DropMenu motivoId={motivo.id}/>
                 </div>
             </div>
         </div>

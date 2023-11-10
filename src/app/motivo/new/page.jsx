@@ -31,9 +31,9 @@ export default function FormMotivo(){
                 <h2 className="text-2xl text-slate-100">Cadastrar Motivo</h2>
 
                 <form action={handleSubmit} className="flex flex-col gap-5 ">
-
+                    
                     <InputText
-                        label="Descrição do que você sentiu depois de comer"//nome da refeição
+                        label="Descrição do que você sentiu depois de comer"
                         id="descricaoMotivo"
                         name="descricaoMotivo"
                         style={{ backgroundColor: "lightsteelblue" }}
@@ -54,7 +54,5 @@ export default function FormMotivo(){
 
             </main>
         </>
-
-
     )
 }
