@@ -32,6 +32,59 @@ async function getRefeicao() {
                 <h1 className="info-title">Informações:</h1>
                 {refeicoes.map(refeicao => <DataRow key={refeicao.id} refeicao={refeicao} />)}
                 
+                <div id="data" className="bg-red-100 rounded">
+                    {refeicoes.map(refeicao => {
+                    if (refeicao.id === 1) {
+                        return <DataRow key={refeicao.id} refeicao={refeicao} />;
+                    }
+                    return null;
+                    })}
+                </div>
+
+                <div id="data" className="bg-red-100 rounded">
+                    {refeicoes.map(refeicao => {
+                    if (refeicao.id === 2) {
+                        return <DataRow key={refeicao.id} refeicao={refeicao} />;
+                    }
+                    return null;
+                    })}
+                </div>
+
+                <div id="data" className="bg-red-100 rounded">
+                    {refeicoes.map(refeicao => {
+                    if (refeicao.id === 3) {
+                        return <DataRow key={refeicao.id} refeicao={refeicao} />;
+                    }
+                    return null;
+                    })}
+                </div>
+
+                <div id="data" className="bg-red-100 rounded">
+                    {refeicoes.map(refeicao => {
+                    if (refeicao.id === 4) {
+                        return <DataRow key={refeicao.id} refeicao={refeicao} />;
+                    }
+                    return null;
+                    })}
+                </div>
+
+                <div id="data" className="bg-red-100 rounded">
+                    {refeicoes.map(refeicao => {
+                    if (refeicao.id === 5) {
+                        return <DataRow key={refeicao.id} refeicao={refeicao} />;
+                    }
+                    return null;
+                    })}
+                </div>
+
+                <div id="data" className="bg-red-100 rounded">
+                    {refeicoes.map(refeicao => {
+                    if (refeicao.id === 6) {
+                        return <DataRow key={refeicao.id} refeicao={refeicao} />;
+                    }
+                    return null;
+                    })}
+                </div>
             </main>
         </>
     );
