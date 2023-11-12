@@ -9,7 +9,7 @@ export default async function MotivoEdit({params}) {
     
     return (
         <>
-            <NavBar active="motivos" />
+            <NavBar active="motivo" />
             <FormEdit motivo={motivo} />
         </>
     )

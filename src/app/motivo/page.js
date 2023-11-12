@@ -1,6 +1,7 @@
 import Button from "@/components/Button";
 import NavBar from "@/components/NavBar";
 import DataRow from "./DataRow";
+import './styles.css';
 
 async function getMotivo() {
     const url = "http://localhost:8080/api/v1/motivos"
@@ -15,9 +16,9 @@ async function getMotivo() {
         <>
             <NavBar active={"motivo"} />
     
-            <main className="bg-gray-700 mt-10 p-9 rounded max-w-xl m-auto">
+            <main className="bg-red-200 mt-10 p-9 rounded max-w-3xl m-auto forms">
             <div className="flex justify-between items-center">
-                <h2 className="text-slate-100 text-2xl">Motivos</h2>
+                <h2 className="text-slate-600 text-2xl ">Forms</h2>
 
                 <Button href="/motivo/new">
                 Criar Motivo

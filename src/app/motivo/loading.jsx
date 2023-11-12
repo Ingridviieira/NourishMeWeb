@@ -7,27 +7,27 @@ export default function Loading() {
     const motivos = Array(3).fill({})
     return (
         <>
-            <NavBar active={"motivos"} />
+            <NavBar active={"motivo"} />
 
-            <main className="bg-slate-900 mt-10 p-9 rounded max-w-xl m-auto">
+            <main className="bg-red-100 mt-10 p-9 rounded max-w-3xl m-auto">
                 <div className="flex justify-between items-center">
-                    <h2 className="text-slate-100 text-2xl">motivos</h2>
+                    <h2 className="text-slate-600 text-2xl">Motivo</h2>
                     <Button href="/motivos/new">
                         <PlusIcon className="h-6 w-6" />
-                        criar motivo
+                        Criar Motivo
                     </Button>
                 </div>
 
                 <div id="data">
                     {motivos.map(() => {
                         return (
-                            <div id="data-row" className="group flex items-center justify-between p-2 my-2 rounded cursor-pointer hover:bg-slate-700">
+                            <div id="data-row" className="group flex items-center justify-between p-2 my-2 rounded cursor-pointer hover:bg-red-200">
                                 <div className="flex gap-2 items-center">
-                                    <Skeleton className="h-6 w-6 bg-slate-600 rounded-full" />
-                                    <Skeleton className="h-6 w-32 bg-slate-600" />
+                                    <Skeleton className="h-6 w-6 bg-red-100 rounded-full" />
+                                    <Skeleton className="h-6 w-32 bg-red-100" />
                                 </div>
                                 <div className="flex items-center">
-                                    <Skeleton className="h-6 w-10 bg-slate-600" />
+                                    <Skeleton className="h-6 w-10 bg-red-200" />
                                 </div>
                             </div>
                         )

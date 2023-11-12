@@ -11,16 +11,18 @@ export default function Home() {
   };
 
   const textoStyle ={
-    marginTop: '50px',
     textAlign: 'center',
-    fontFamily: 'Georgia',
-    fontSize: '25px',
+    fontFamily: 'bodoni MT',
+    fontSize: '40px',
+    lineHeight: '1.5',
+    maxWidth: '800px',
+    margin: '20px',
   };
 
   const paragraphStyle = {
     textAlign: 'center',
-    fontFamily: 'Georgia',
-    fontSize: '18px',
+    fontFamily: 'Goudy Old Style',
+    fontSize: '20px',
     lineHeight: '1.5',
     maxWidth: '500px',
     margin: '50px',

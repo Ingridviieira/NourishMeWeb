@@ -5,6 +5,7 @@ import InputText from "@/components/InputText";
 import { CheckIcon, ChevronLeftIcon } from "@heroicons/react/24/outline";
 import { redirect } from 'next/navigation';
 import { useState } from "react";
+import './styles.css';
 
 export default function FormEdit({motivo}) {
     const [error, setError] = useState("")
@@ -32,29 +33,31 @@ export default function FormEdit({motivo}) {
 
 
     return (
-        <main className="bg-slate-900 mt-20 m-auto p-12 rounded max-w-lg">
-            <h2 className="text-2xl text-slate-100">Editar Motivo</h2>
+        <main className="bg-red-200 mt-20 m-auto p-12 rounded max-w-lg">
+            <h2 className="text-2xl text-slate-700 edit">Editar Motivo</h2>
 
-            <form action={handleSubmit} className="flex flex-col gap-4">
+            <form action={handleSubmit} className="flex flex-col gap-4 editText">
                 <InputText
                     label="Descrição do que você sentiu depois de comer"
                     id="descricaoMotivo"
                     name="descricaoMotivo"
-                    style={{ backgroundColor: "lightsteelblue" }}
+                    value={motivoEdit.descricaoMotivo}
+                    onChange={(e) => handleFieldEdit("descricaoMotivo", e.target.value)}
+                    style={{ backgroundColor: "#c2c2c2"  }}
                 />
 
                 <div className="flex justify-around">
                     <Button href="/motivo" variant="secondary">
                         <ChevronLeftIcon className="h-6 w-6 " />
-                        cancelar
+                        Cancelar
                     </Button>
                     <Button type="button">
                         <CheckIcon className="h-6 w-6" />
-                        salvar
+                        Salvar
                     </Button>
                 </div>
 
-                <span className="text-red-500">{error}</span>
+                <span className="text-red-400">{error}</span>
 
             </form>
 

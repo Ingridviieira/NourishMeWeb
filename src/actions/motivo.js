@@ -81,7 +81,7 @@ export async function update(motivo){
     const resp = await fetch(updateUrl, options)
 
     if(resp.status !== 200)
-        return {error: "erro ao atualizar motivo"}
+        return {error: "Erro ao atualizar motivo"}
 
     revalidatePath("/motivo")
 }

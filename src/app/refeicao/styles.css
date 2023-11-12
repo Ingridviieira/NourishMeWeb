@@ -1,18 +1,23 @@
 
 .info-title {
-    font-size: 30px;
-    color: rgba(50, 19, 71, 0.489);
-    font-family: Didot, serif;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.489);
+    font-family: 'bodoni MT';
     text-align: center;
 }
 
 .info-text {
-    font-size: 16px;
-    color: #050505;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+    font-family: 'bodoni MT';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .large-text {
     font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Goudy Old Style';
+
 }
+

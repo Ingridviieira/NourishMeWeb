@@ -6,6 +6,7 @@ import InputText from "@/components/InputText";
 import NavBar from "@/components/NavBar";
 import { redirect } from "next/navigation";
 import { useState } from "react";
+import './styles.css';
 
 
 export default function FormMotivo(){
@@ -27,16 +28,18 @@ export default function FormMotivo(){
         <>
             <NavBar active="motivos" />
 
-            <main className="bg-slate-400 mt-20 m-auto p-12 rounded max-w-lg">
-                <h2 className="text-2xl text-slate-100">Cadastrar Motivo</h2>
+            <main className="bg-red-100 mt-20 m-auto p-12 rounded max-w-lg">
+            <h2 className="text-2xl text-slate-800 font-goudy text-center">
+                Cadastrar Motivo
+            </h2>
 
-                <form action={handleSubmit} className="flex flex-col gap-5 ">
+                <form action={handleSubmit} className="flex flex-col gap-5 fonte">
                     
                     <InputText
                         label="Descrição do que você sentiu depois de comer"
                         id="descricaoMotivo"
                         name="descricaoMotivo"
-                        style={{ backgroundColor: "lightsteelblue" }}
+                        style={{ backgroundColor: "#c2c2c2"  }}
                     />
 
                     <div className="flex justify-around">
@@ -48,7 +51,7 @@ export default function FormMotivo(){
                         </Button>
                     </div>
 
-                    <span className="text-red-500">{error}</span>
+                    <span className="text-slate-500">{error}</span>
 
                 </form>
 

@@ -28,8 +28,8 @@ async function getRefeicao() {
     return (
         <>
             <NavBar active={"refeicao"} />
-            <main className="bg-gray-500 m-20 p-12">
-                <h1 className="info-title">Informações:</h1>
+            <h1 className="info-title">Informações:</h1>
+            <main className="m-20 p-12">
                 {refeicoes.map(refeicao => <DataRow key={refeicao.id} refeicao={refeicao} />)}
                 
                 <div id="data" className="bg-red-100 rounded">

@@ -2,7 +2,7 @@ import DropMenu from "@/components/DropMenu";
 
 export default function DataRow({motivo}) {
     return (
-        <div id="data-row" className="group flex items-center justify-between p-2 my-2 rounded cursor-pointer hover:bg-slate-500">
+        <div id="data-row" className="group flex items-center justify-between p-2 my-2 rounded cursor-pointer hover:bg-red-300">
             
             <div className="flex gap-2 items-center">
                 <span>{motivo.descricaoMotivo}</span>
