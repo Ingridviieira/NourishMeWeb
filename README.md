@@ -1,6 +1,6 @@
 # Challenge-FIAP - NourishMe 
 
-## Lembre de colocra na branch Vs01
+## Lembre de colocar na branch Vs01
 
 # Integrantes
 
